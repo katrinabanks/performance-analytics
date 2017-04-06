@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_breakdowns">
+    <pa_breakdowns action="INSERT_OR_UPDATE">
+        <default_filter/>
+        <description/>
+        <dimension display_value="Marketing Event">2e4deac2bf13120033d434fa2c07399c</dimension>
+        <display>true</display>
+        <facts_table/>
+        <field/>
+        <name># of Attendees</name>
+        <script/>
+        <scripted>false</scripted>
+        <sys_class_name>pa_breakdowns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-11 20:51:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28ad6ec2bf13120033d434fa2c073958</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name># of Attendees</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Application" source="x_14806_marketing">3b7ed2ef0f85020078648fcce1050e5a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">3b7ed2ef0f85020078648fcce1050e5a</sys_scope>
+        <sys_update_name>pa_breakdowns_28ad6ec2bf13120033d434fa2c073958</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-12 17:24:56</sys_updated_on>
+        <type>1</type>
+    </pa_breakdowns>
+    <sys_translated_text action="delete_multiple" query="documentkey=28ad6ec2bf13120033d434fa2c073958"/>
+</record_update>

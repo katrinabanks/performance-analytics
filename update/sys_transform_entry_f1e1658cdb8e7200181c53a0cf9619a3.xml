@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Attendee Historic Data">d7c1658cdb8e7200181c53a0cf96198c</map>
+        <reference_value_field/>
+        <source_field>u_marketing_event</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_14806_marketing__pa_historic_data</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-05 23:16:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f1e1658cdb8e7200181c53a0cf9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_marketing_event</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_14806_marketing">3b7ed2ef0f85020078648fcce1050e5a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">3b7ed2ef0f85020078648fcce1050e5a</sys_scope>
+        <sys_update_name>sys_transform_entry_f1e1658cdb8e7200181c53a0cf9619a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-05 23:16:01</sys_updated_on>
+        <target_field>marketing_event</target_field>
+        <target_table>x_14806_marketing_attendee</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

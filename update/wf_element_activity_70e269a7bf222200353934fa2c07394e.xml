@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="">8817a25e37222100aa40cc9fbe41f106</base_provider>
+        <category/>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description>Use the public Google Maps web service to calculate driving distance and duration between two locations.</description>
+        <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"origins","type":"STRING","mandatory":false},{"name":"units","type":"STRING","mandatory":false},{"name":"duration","type":"STRING","mandatory":false},{"name":"distance","type":"STRING","mandatory":false},{"name":"destinations","type":"STRING","mandatory":false}]}</input_meta>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"d4c73f720fda5600d561b17ce1050ea0","web_service_message_function":"7de7f7720fda5600d561b17ce1050e10","web_service_endpoint":"","parameters":"[{\"name\":\"origins\",\"value\":\"${activityInput.origins}\",\"additional_attribute\":\"\"},{\"name\":\"units\",\"value\":\"${activityInput.units}\",\"additional_attribute\":\"\"},{\"name\":\"destinations\",\"value\":\"${activityInput.destinations}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"false","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <local_variables>{"name":"Local","type":"DATA_OBJECT","properties":[]}</local_variables>
+        <name>Google Map get duration and distance</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"distance","type":"STRING"},{"name":"duration","type":"STRING"}]}</output_meta>
+        <output_process_script/>
+        <output_transform>[{"toLink":"activityOutput.distance","description":"","to":"distance","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"JSON","children":"[]","translation":"$.rows[0].elements[0].distance.text"},{"toLink":"activityOutput.duration","description":"","to":"duration","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"JSON","children":"[]","translation":"$.rows[0].elements[0].duration.text"}]</output_transform>
+        <processing_script/>
+        <sample_payloads>{"executionResult.body":{"payload":"{   \n                    \"destination_addresses\" : [ \"San Diego, CA, USA\" ], \n                    \"origin_addresses\" : [ \"Payson, UT, USA\" ],  \n                    \"rows\" : [    \n                       {    \n                         \"elements\" : [         \n                               {  \n                                 \"distance\" : {       \n                                       \"text\" : \"692 mi\", \n                                       \"value\" : 1114115              \n                                  }, \n           \n                                  \"duration\" : {       \n                                       \"text\" : \"9 hours 41 mins\",  \n                                       \"value\" : 34878              \n                                  },            \n                                   \"status\" : \"OK\"    \n                        }       \n                   ]  \n            }   \n        ],  \n           \"status\" : \"OK\"\n   }","type":"json"}}</sample_payloads>
+        <short_description>Google Maps REST activity</short_description>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-24 20:40:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>70e269a7bf222200353934fa2c07394e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Google Map get duration and distance</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_14806_marketing">3b7ed2ef0f85020078648fcce1050e5a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">3b7ed2ef0f85020078648fcce1050e5a</sys_scope>
+        <sys_update_name>wf_element_activity_70e269a7bf222200353934fa2c07394e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-24 21:15:08</sys_updated_on>
+        <version_container_id>bf0329a7bf222200353934fa2c0739a5</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=70e269a7bf222200353934fa2c07394e"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>true</published>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-10-24 20:40:03</sys_created_on>
+        <sys_id>3303a9a7bf222200353934fa2c073935</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-10-24 21:15:08</sys_updated_on>
+        <valid_from>2016-10-24 21:15:08</valid_from>
+        <valid_to/>
+        <version>1</version>
+        <version_container_id>bf0329a7bf222200353934fa2c0739a5</version_container_id>
+        <wf_element_definition display_value="Google Map get duration and distance">70e269a7bf222200353934fa2c07394e</wf_element_definition>
+    </wf_versionable>
+    <wf_versionable action="update_multiple" query="version_container_id=bf0329a7bf222200353934fa2c0739a5^sys_id!=3303a9a7bf222200353934fa2c073935">
+        <published>false</published>
+    </wf_versionable>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=bf0329a7bf222200353934fa2c0739a5^pinned=true">
+        <new_activity_definition>70e269a7bf222200353934fa2c07394e</new_activity_definition>
+        <out_of_date>true</out_of_date>
+        <notes>There is a newer version of this activity. To update the activity, check out the workflow, select the activity, right click and select update activity to use the latest version.</notes>
+    </wf_activity>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=bf0329a7bf222200353934fa2c0739a5^pinned=false">
+        <activity_definition>70e269a7bf222200353934fa2c07394e</activity_definition>
+        <activity_definition_updated>true</activity_definition_updated>
+        <notes>This activity was updated to a newer version since the workflow was published.</notes>
+    </wf_activity>
+</record_update>
