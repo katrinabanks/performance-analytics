@@ -24,7 +24,7 @@
         <sys_class_name>sysauto_pa</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-14 18:24:05</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4a036154bf622200353934fa2c07394d</sys_id>

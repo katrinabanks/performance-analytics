@@ -25,7 +25,7 @@
         <sys_class_name>sysauto_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-11 21:41:32</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e82ee69fcbd2220035397606634c9c04</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Scheduled execution of Marketing Events Budget by City</sys_name>

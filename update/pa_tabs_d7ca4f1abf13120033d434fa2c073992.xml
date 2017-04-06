@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="pa_tabs">
     <pa_tabs action="INSERT_OR_UPDATE">
         <name>Registration Attendance</name>
-        <page display_value="PA Registration Attendance">d7ca4f1abf13120033d434fa2c073990</page>
+        <page/>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-05-12 17:36:50</sys_created_on>

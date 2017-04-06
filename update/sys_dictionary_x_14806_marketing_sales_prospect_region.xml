@@ -51,8 +51,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 22:22:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>89d3155ebfe22200353934fa2c073950</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f509c2d0dbc2b200181c53a0cf961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Region</sys_name>
         <sys_package display_value="Marketing Events Application" source="x_14806_marketing">3b7ed2ef0f85020078648fcce1050e5a</sys_package>
@@ -60,8 +60,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing Events Application">3b7ed2ef0f85020078648fcce1050e5a</sys_scope>
         <sys_update_name>sys_dictionary_x_14806_marketing_sales_prospect_region</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-10-20 22:22:43</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-04-06 20:45:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

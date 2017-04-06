@@ -9,7 +9,7 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-05 23:03:15</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>32fe194cdb8e7200181c53a0cf961950</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_14806_marketing_equipment_request</sys_name>

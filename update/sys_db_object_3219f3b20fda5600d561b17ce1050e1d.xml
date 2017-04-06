@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-03-25 17:15:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3219f3b20fda5600d561b17ce1050e1d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Trip</sys_name>

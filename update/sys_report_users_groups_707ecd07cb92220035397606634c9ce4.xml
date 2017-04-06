@@ -6,7 +6,7 @@
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-10 19:37:20</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>707ecd07cb92220035397606634c9ce4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>787ecd07cb92220035397606634c9ce3</sys_name>

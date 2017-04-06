@@ -6,7 +6,7 @@
         <sys_class_name>sys_rest_message_headers</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 23:12:54</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>20af1912bf262200353934fa2c073996</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Accept</sys_name>

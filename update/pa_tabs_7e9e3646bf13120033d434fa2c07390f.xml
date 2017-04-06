@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="pa_tabs">
     <pa_tabs action="INSERT_OR_UPDATE">
         <name>Number of Attendees</name>
-        <page display_value="PA Number of Attendees">7a9e3646bf13120033d434fa2c07390f</page>
+        <page/>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-05-11 22:05:04</sys_created_on>

@@ -6,7 +6,7 @@
         <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-10-20 23:19:20</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0711a912bf262200353934fa2c073972</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_company</sys_name>
