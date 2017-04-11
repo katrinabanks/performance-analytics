@@ -7,7 +7,11 @@
         <display>true</display>
         <facts_table/>
         <field/>
+        <groups/>
+        <id>17</id>
         <name># of Attendees</name>
+        <role_override>false</role_override>
+        <roles/>
         <script/>
         <scripted>false</scripted>
         <sys_class_name>pa_breakdowns</sys_class_name>
@@ -28,6 +32,8 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-05-12 17:24:56</sys_updated_on>
         <type>1</type>
+        <users/>
+        <visible_to/>
     </pa_breakdowns>
     <sys_translated_text action="delete_multiple" query="documentkey=28ad6ec2bf13120033d434fa2c073958"/>
 </record_update>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Attendee Data" max_length="40" name="x_14806_marketing_attendee_data" type="collection">
+        <element attributes="import_attribute_name=Attended,edge_encryption_enabled=true" label="Attended" max_length="40" name="u_attended" type="string"/>
+        <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="import_attribute_name=First Name,edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="import_attribute_name=Last Name,edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="import_attribute_name=Marketing Event,edge_encryption_enabled=true" label="Marketing Event" max_length="40" name="u_marketing_event" type="string"/>
+        <element attributes="import_attribute_name=Registered,edge_encryption_enabled=true" label="Registered" max_length="40" name="u_registered" type="string"/>
+        <element attributes="import_attribute_name=Registration Date,edge_encryption_enabled=true" label="Registration Date" max_length="40" name="u_registration_date" type="string"/>
+    </element>
+</database>

@@ -48,7 +48,7 @@
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-03-25 17:05:34</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dd5773720fda5600d561b17ce1050e2f</sys_id>
@@ -57,7 +57,7 @@
         <sys_overrides/>
         <sys_package display_value="Marketing Events Application" source="x_14806_marketing">3b7ed2ef0f85020078648fcce1050e5a</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing Events Application">3b7ed2ef0f85020078648fcce1050e5a</sys_scope>
         <sys_update_name>wf_workflow_dd5773720fda5600d561b17ce1050e2f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -94,6 +94,7 @@
         <x>20</x>
         <y>20</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ce9e480b0fda5600d561b17ce1050e71"/>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Begin">ce9e480b0fda5600d561b17ce1050e71</activity>
         <condition>true</condition>
@@ -143,6 +144,7 @@
         <x>1229</x>
         <y>737</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=4e9e480b0fda5600d561b17ce1050e71"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -171,6 +173,21 @@
         <x>1183</x>
         <y>352</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=069e480b0fda5600d561b17ce1050e71"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>069e480b0fda5600d561b17ce1050e71</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-03-25 18:47:12</sys_created_on>
+        <sys_id>469e480b0fda5600d561b17ce1050e71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-03-25 18:47:12</sys_updated_on>
+        <value>distance=${data.get(5).distance}^duration=${data.get(5).duration}^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
         <document_key>069e480b0fda5600d561b17ce1050e71</document_key>
@@ -234,6 +251,7 @@
         <x>367</x>
         <y>50</y>
     </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=29ae004b0fda5600d561b17ce1050e94"/>
     <wf_condition action="INSERT_OR_UPDATE">
         <activity display_value="Trip Calculator">29ae004b0fda5600d561b17ce1050e94</activity>
         <condition>true</condition>

@@ -2,6 +2,7 @@
 <record_update table="sysevent_email_template">
     <sysevent_email_template action="INSERT_OR_UPDATE">
         <collection>x_14806_marketing_attendee</collection>
+        <email_layout/>
         <message/>
         <message_html><![CDATA[<p><span>Dear ${u_first_name},</span>
 <p class="p">This is to confirm that you are registered for ${u_marketing_event.u_name}. We look forward to seeing you at the event. If you have any questions, please contact the event team at 1-888-555-1212.</p>
@@ -15,7 +16,7 @@
         <sys_class_name>sysevent_email_template</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2015-07-10 19:44:46</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>92b7ae230fc5020078648fcce1050e6a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Marketing Event Registration</sys_name>

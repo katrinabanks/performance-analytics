@@ -11,6 +11,8 @@
         <name>Number of Attendees</name>
         <no_tabs>false</no_tabs>
         <order/>
+        <owner/>
+        <restrict_to_roles/>
         <role_override>true</role_override>
         <roles/>
         <sys_class_name>pa_dashboards</sys_class_name>

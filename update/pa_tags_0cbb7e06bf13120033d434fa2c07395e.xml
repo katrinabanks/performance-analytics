@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="pa_tags">
     <pa_tags action="INSERT_OR_UPDATE">
+        <description/>
         <label>attendee</label>
         <sys_class_name>pa_tags</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -19,4 +20,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-05-11 21:52:19</sys_updated_on>
     </pa_tags>
+    <sys_translated_text action="delete_multiple" query="documentkey=0cbb7e06bf13120033d434fa2c07395e"/>
 </record_update>
