@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>fc338d1adb023200a1acd8c0cf9619ed</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_14806_marketing_attendee">
+    <x_14806_marketing_attendee action="INSERT_OR_UPDATE">
+        <attended_event/>
+        <email>david.loo@example.com</email>
+        <first_name>David</first_name>
+        <last_name>Loo</last_name>
+        <marketing_event display_value="Portland LUG">5c8ec3f1db023200a1acd8c0cf9619de</marketing_event>
+        <phone/>
+        <registration_date>2016-10-18</registration_date>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-12 20:48:11</sys_created_on>
+        <sys_id>fc338d1adb023200a1acd8c0cf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-12 20:48:11</sys_updated_on>
+        <u_choice_1>Yes</u_choice_1>
+        <u_choice_2>No</u_choice_2>
+    </x_14806_marketing_attendee>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-12 20:52:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1834495adb023200a1acd8c0cf961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loo</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_14806_marketing">3b7ed2ef0f85020078648fcce1050e5a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">3b7ed2ef0f85020078648fcce1050e5a</sys_scope>
+        <sys_update_name>sys_metadata_link_1834495adb023200a1acd8c0cf961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-12 20:52:31</sys_updated_on>
+        <tablename>x_14806_marketing_attendee</tablename>
+    </sys_metadata_link>
+</record_update>

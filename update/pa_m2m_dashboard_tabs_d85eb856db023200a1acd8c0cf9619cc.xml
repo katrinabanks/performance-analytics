@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Marketing Event Dashboard">a01ef856db023200a1acd8c0cf9619d6</dashboard>
+        <home>false</home>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-12 20:26:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d85eb856db023200a1acd8c0cf9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a01ef856db023200a1acd8c0cf9619d6</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Events Application" source="x_14806_marketing">3b7ed2ef0f85020078648fcce1050e5a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">3b7ed2ef0f85020078648fcce1050e5a</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_d85eb856db023200a1acd8c0cf9619cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-12 20:26:51</sys_updated_on>
+        <tab display_value="New Tab">585eb856db023200a1acd8c0cf9619ca</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

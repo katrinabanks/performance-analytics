@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysauto_pa">
+    <sysauto_pa action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <description/>
+        <kill_job>false</kill_job>
+        <name>Attendee historic collection</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-04-12 20:22:19</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <score_fixed_end>20170412</score_fixed_end>
+        <score_fixed_start>20170101</score_fixed_start>
+        <score_operator>fixed</score_operator>
+        <score_relative_end/>
+        <score_relative_end_interval/>
+        <score_relative_start/>
+        <score_relative_start_interval/>
+        <sys_class_name>sysauto_pa</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-12 20:23:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>314d7456db023200a1acd8c0cf961910</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Attendee historic collection</sys_name>
+        <sys_package display_value="Marketing Events Application" source="x_14806_marketing">3b7ed2ef0f85020078648fcce1050e5a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Marketing Events Application">3b7ed2ef0f85020078648fcce1050e5a</sys_scope>
+        <sys_update_name>sysauto_pa_314d7456db023200a1acd8c0cf961910</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-12 20:36:28</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_pa>
+    <sys_translated_text action="delete_multiple" query="documentkey=314d7456db023200a1acd8c0cf961910"/>
+</record_update>

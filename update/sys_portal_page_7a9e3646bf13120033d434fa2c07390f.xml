@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2017-04-11 17:50:31">
+<record_update node_type="sys_portal_page" unload_date="2017-04-12 20:53:04">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -26,87 +26,5 @@
         <title>PA Number of Attendees</title>
         <user/>
         <view>pa_number_of_attendees</view>
-        <related_items_node>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone>dropzone0</dropzone>
-                <offset>0</offset>
-                <page display_value="PA Number of Attendees">7a9e3646bf13120033d434fa2c07390f</page>
-                <summary/>
-                <sys_created_by>admin</sys_created_by>
-                <sys_created_on>2016-05-11 22:05:51</sys_created_on>
-                <sys_id>9ace3646bf13120033d434fa2c07397b</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>admin</sys_updated_by>
-                <sys_updated_on>2016-05-11 22:05:51</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>type</name>
-                        <portal_section display_value="Created 2016-05-11 15:05:51">9ace3646bf13120033d434fa2c07397b</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2016-05-11 22:05:51</sys_created_on>
-                        <sys_id>1ece3646bf13120033d434fa2c07397c</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2016-05-11 22:05:51</sys_updated_on>
-                        <value>time</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 2016-05-11 15:05:51">9ace3646bf13120033d434fa2c07397b</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2016-05-11 22:05:51</sys_created_on>
-                        <sys_id>5ace3646bf13120033d434fa2c07397c</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2016-05-11 22:05:51</sys_updated_on>
-                        <value>Number of Attendees</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 2016-05-11 15:05:51">9ace3646bf13120033d434fa2c07397b</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2016-05-11 22:05:51</sys_created_on>
-                        <sys_id>5ace3646bf13120033d434fa2c0739c7</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2016-05-11 22:05:51</sys_updated_on>
-                        <value>7a9e3646bf13120033d434fa2c07390f</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 2016-05-11 15:05:51">9ace3646bf13120033d434fa2c07397b</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2016-05-11 22:05:51</sys_created_on>
-                        <sys_id>96ce3646bf13120033d434fa2c07397c</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2016-05-11 22:05:51</sys_updated_on>
-                        <value>pa_widget_description</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 2016-05-11 15:05:51">9ace3646bf13120033d434fa2c07397b</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2016-05-11 22:05:51</sys_created_on>
-                        <sys_id>d2ce3646bf13120033d434fa2c07397c</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2016-05-11 22:05:51</sys_updated_on>
-                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 2016-05-11 15:05:51">9ace3646bf13120033d434fa2c07397b</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2016-05-11 22:05:51</sys_created_on>
-                        <sys_id>dace3646bf13120033d434fa2c07397b</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2016-05-11 22:05:51</sys_updated_on>
-                        <value>6f094a82bf13120033d434fa2c07395e</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-        </related_items_node>
     </sys_portal_page>
 </record_update>

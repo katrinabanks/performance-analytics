@@ -8,30 +8,30 @@
         <is_breakdown>false</is_breakdown>
         <managed_breakdown/>
         <managed_publisher/>
-        <name>Number of Attendees</name>
+        <name>Marketing Event Dashboard</name>
         <no_tabs>false</no_tabs>
         <order/>
-        <owner/>
-        <restrict_to_roles>pa_viewer,pa_contributor</restrict_to_roles>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <restrict_to_roles/>
         <role_override>true</role_override>
         <roles/>
         <sys_class_name>pa_dashboards</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-05-11 22:04:55</sys_created_on>
+        <sys_created_on>2017-04-12 20:26:51</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b37e3646bf13120033d434fa2c073905</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Number of Attendees</sys_name>
+        <sys_id>a01ef856db023200a1acd8c0cf9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Marketing Event Dashboard</sys_name>
         <sys_overrides/>
         <sys_package display_value="Marketing Events Application" source="x_14806_marketing">3b7ed2ef0f85020078648fcce1050e5a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Marketing Events Application">3b7ed2ef0f85020078648fcce1050e5a</sys_scope>
-        <sys_update_name>pa_dashboards_b37e3646bf13120033d434fa2c073905</sys_update_name>
+        <sys_update_name>pa_dashboards_a01ef856db023200a1acd8c0cf9619d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-12 20:28:41</sys_updated_on>
+        <sys_updated_on>2017-04-12 20:26:51</sys_updated_on>
         <users/>
         <visible_to>2</visible_to>
     </pa_dashboards>
